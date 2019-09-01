@@ -1,6 +1,6 @@
 language: c
 env:
-  - TOOL_NAME=kind TOOL_VERSION=v0.5.1 TOOL_TEST_COMMAND='kind --version'
+  - TOOL_NAME=kind TOOL_VERSION=v0.5.1 TOOL_TEST_COMMAND='kind version'
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git
   - . asdf/asdf.sh
