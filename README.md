@@ -4,6 +4,8 @@
 
 [kind](https://kind.sigs.k8s.io/) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
+Please note that there is another asdf plugin for kind, <https://github.com/johnlayton/asdf-kind>, already registred as a plugin (so you can just use `asdf plugin install kind`)
+
 ## Install
 
 ```bash
